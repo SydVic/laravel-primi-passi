@@ -16,11 +16,47 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data = [
         'navbar' => [
-            'home' => 'home',
+            '' => 'home',
             'products' => 'products',
-            'aboutUs' => 'about us',
+            'aboutus' => 'about us',
             'contacts' => 'contacts',
         ]
     ];
     return view('home', $data);
+});
+
+Route::get('/products', function () {
+    $data = [
+        'navbar' => [
+            '' => 'home',
+            'products' => 'products',
+            'aboutus' => 'about us',
+            'contacts' => 'contacts',
+        ]
+    ];
+    return view('products', $data);
+});
+
+Route::get('/aboutus', function () {
+    $data = [
+        'navbar' => [
+            '' => 'home',
+            'products' => 'products',
+            'aboutus' => 'about us',
+            'contacts' => 'contacts',
+        ]
+    ];
+    return view('aboutus', $data);
+});
+
+Route::get('/contacts', function () {
+    $data = [
+        'navbar' => [
+            '' => 'home',
+            'products' => 'products',
+            'aboutus' => 'about us',
+            'contacts' => 'contacts',
+        ]
+    ];
+    return view('contacts', $data);
 });

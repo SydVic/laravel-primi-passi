@@ -21,8 +21,8 @@
     </ul>
   </section>
 
-  <section class="main-home">
-    <h1>HOME</h1>
+  <section class="main-products">
+    <h1>PRODUCTS</h1>
   </section>
 </body>
 </html>

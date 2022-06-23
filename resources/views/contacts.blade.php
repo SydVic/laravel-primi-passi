@@ -21,8 +21,8 @@
     </ul>
   </section>
 
-  <section class="main-home">
-    <h1>HOME</h1>
+  <section class="main-contacts">
+    <h1>CONTACTS</h1>
   </section>
 </body>
 </html>
